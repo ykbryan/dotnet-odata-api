@@ -64,3 +64,9 @@
 /app/obj/Debug/net6.0/dotnet-odata-api.pdb
 /app/obj/Debug/net6.0/dotnet-odata-api.genruntimeconfig.cache
 /app/obj/Debug/net6.0/ref/dotnet-odata-api.dll
+/Users/bryanchua/Git/dotnet-odata-api/bin/Debug/net6.0/Microsoft.AspNetCore.OData.dll
+/Users/bryanchua/Git/dotnet-odata-api/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/bryanchua/Git/dotnet-odata-api/bin/Debug/net6.0/Microsoft.OData.Core.dll
+/Users/bryanchua/Git/dotnet-odata-api/bin/Debug/net6.0/Microsoft.OData.Edm.dll
+/Users/bryanchua/Git/dotnet-odata-api/bin/Debug/net6.0/Microsoft.OData.ModelBuilder.dll
+/Users/bryanchua/Git/dotnet-odata-api/bin/Debug/net6.0/Microsoft.Spatial.dll

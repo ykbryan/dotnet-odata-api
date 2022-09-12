@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Nxj5/U5TomFGBnUT3tAtPXUwmjHTA97U81lUwP2ct3H+81MAbg765h4uwBUA2D2ttq4ZJuqme+XDsRazgQLmBg==",
+  "dgSpecHash": "Q17dpbF+lK7nwcUbnYKDJTn45Bsvdrakzf1MnqxMn5M8dX19AvrIg8jLxZLw9mNi4fUWp50pffTXu+0UyeQHhQ==",
   "success": true,
   "projectFilePath": "/Users/bryanchua/Git/dotnet-odata-api/dotnet-odata-api.csproj",
   "expectedPackageFiles": [
+    "/Users/bryanchua/.nuget/packages/microsoft.aspnetcore.odata/8.0.11/microsoft.aspnetcore.odata.8.0.11.nupkg.sha512",
+    "/Users/bryanchua/.nuget/packages/microsoft.bcl.asyncinterfaces/5.0.0/microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "/Users/bryanchua/.nuget/packages/microsoft.entityframeworkcore/6.0.7/microsoft.entityframeworkcore.6.0.7.nupkg.sha512",
     "/Users/bryanchua/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.7/microsoft.entityframeworkcore.abstractions.6.0.7.nupkg.sha512",
     "/Users/bryanchua/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.7/microsoft.entityframeworkcore.analyzers.6.0.7.nupkg.sha512",
@@ -18,7 +20,11 @@
     "/Users/bryanchua/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "/Users/bryanchua/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
     "/Users/bryanchua/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/bryanchua/.nuget/packages/microsoft.odata.core/7.12.2/microsoft.odata.core.7.12.2.nupkg.sha512",
+    "/Users/bryanchua/.nuget/packages/microsoft.odata.edm/7.12.2/microsoft.odata.edm.7.12.2.nupkg.sha512",
+    "/Users/bryanchua/.nuget/packages/microsoft.odata.modelbuilder/1.0.8/microsoft.odata.modelbuilder.1.0.8.nupkg.sha512",
     "/Users/bryanchua/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/bryanchua/.nuget/packages/microsoft.spatial/7.12.2/microsoft.spatial.7.12.2.nupkg.sha512",
     "/Users/bryanchua/.nuget/packages/mysqlconnector/2.1.2/mysqlconnector.2.1.2.nupkg.sha512",
     "/Users/bryanchua/.nuget/packages/pomelo.entityframeworkcore.mysql/6.0.2/pomelo.entityframeworkcore.mysql.6.0.2.nupkg.sha512",
     "/Users/bryanchua/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
@@ -26,8 +32,11 @@
     "/Users/bryanchua/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
     "/Users/bryanchua/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
     "/Users/bryanchua/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
+    "/Users/bryanchua/.nuget/packages/system.componentmodel.annotations/4.6.0/system.componentmodel.annotations.4.6.0.nupkg.sha512",
     "/Users/bryanchua/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
-    "/Users/bryanchua/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "/Users/bryanchua/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/bryanchua/.nuget/packages/system.text.encodings.web/4.7.2/system.text.encodings.web.4.7.2.nupkg.sha512",
+    "/Users/bryanchua/.nuget/packages/system.text.json/4.6.0/system.text.json.4.6.0.nupkg.sha512"
   ],
   "logs": []
 }
