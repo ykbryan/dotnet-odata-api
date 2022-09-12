@@ -5,38 +5,40 @@ networks:
     driver: bridge 
 
 services:
+  mysqldb:
+    image: mariadb:10.5.8
+    restart: always
+    env_file:
+      - ".env"
+    environment:
+      - MYSQL_DATABASE=${MYSQL_DATABASE}
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+      - MYSQL_USER=${MYSQL_USER}
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+    ports:
+      - 3306:3306
+    networks:
+      - db-access
+    volumes:
+      - "${MYSQL_DATA_SRC}:/var/lib/mysql"
 
-    mysqldb:
-        image: mysql:5.7
-        restart: always
-        env_file:
-            - ".env"
-        environment:
-            - MYSQL_DATABASE=${MYSQL_DATABASE}
-            - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
-            - MYSQL_USER=${MYSQL_USER}
-            - MYSQL_PASSWORD=${MYSQL_PASSWORD}
-        ports:
-            - 3306:3306
-        networks:
-          - db-access
-        volumes:
-            - "${MYSQL_DATA_SRC}:/var/lib/mysql"
-
-    dotnet-odata:
-        build:
-          context: .
-        restart: always
-        ports:
-          - 80
-          - 443
-        environment:
-          ASPNETCORE_ENVIRONMENT: Development
-          ASPNETCORE_URLS: https://+:443;http://+:80
-          ASPNETCORE_Kestrel__Certificates__Default__Password: password
-          ASPNETCORE_Kestrel__Certificates__Default__Path: /https/aspnetapp.pfx
-          ConnectionStrings: DefaultConnection="Host=mysqldb;Port=5432;Database=${MYSQL_DATABASE};username=${MYSQL_USER};password=${MYSQL_PASSWORD}"
-        networks:
-          - db-access
-        volumes:
-          - ~/.aspnet/https:/https:ro
+  odata:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    depends_on: 
+      - mysqldb
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      ASPNETCORE_Kestrel__Certificates__Default__Password: ${CERT_PASSWORD}
+      ASPNETCORE_Kestrel__Certificates__Default__Path: /https/aspnetapp.pfx
+      ConnectionStrings: DefaultConnection="Host=mysqldb;Port=5432;Database=${MYSQL_DATABASE};username=${MYSQL_USER};password=${MYSQL_PASSWORD}"
+    ports:
+      - 80:80
+      - 443:443
+    networks:
+      - db-access
+    volumes:
+      - ~/.aspnet/https:/https:ro
