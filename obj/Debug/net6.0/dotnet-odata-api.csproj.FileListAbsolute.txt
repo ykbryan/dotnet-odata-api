@@ -25,3 +25,9 @@
 /Users/bryanchua/Git/dotnet-odata-api/obj/Debug/net6.0/dotnet-odata-api.pdb
 /Users/bryanchua/Git/dotnet-odata-api/obj/Debug/net6.0/dotnet-odata-api.genruntimeconfig.cache
 /Users/bryanchua/Git/dotnet-odata-api/obj/Debug/net6.0/ref/dotnet-odata-api.dll
+/Users/bryanchua/Git/dotnet-odata-api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/bryanchua/Git/dotnet-odata-api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/bryanchua/Git/dotnet-odata-api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/bryanchua/Git/dotnet-odata-api/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/bryanchua/Git/dotnet-odata-api/bin/Debug/net6.0/MySqlConnector.dll
+/Users/bryanchua/Git/dotnet-odata-api/bin/Debug/net6.0/Pomelo.EntityFrameworkCore.MySql.dll
