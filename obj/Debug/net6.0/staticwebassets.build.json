@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "wb1JAOq9yzPfkorsyPEgqVAEz/MtBoqN0ISGvGd4ZpY=",
+  "Source": "dotnet-odata-api",
+  "BasePath": "_content/dotnet-odata-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
