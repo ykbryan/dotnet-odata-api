@@ -70,3 +70,8 @@
 /Users/bryanchua/Git/dotnet-odata-api/bin/Debug/net6.0/Microsoft.OData.Edm.dll
 /Users/bryanchua/Git/dotnet-odata-api/bin/Debug/net6.0/Microsoft.OData.ModelBuilder.dll
 /Users/bryanchua/Git/dotnet-odata-api/bin/Debug/net6.0/Microsoft.Spatial.dll
+/Users/bryanchua/Git/dotnet-odata-api/obj/Debug/net6.0/staticwebassets/msbuild.dotnet-odata-api.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/bryanchua/Git/dotnet-odata-api/obj/Debug/net6.0/staticwebassets/msbuild.build.dotnet-odata-api.props
+/Users/bryanchua/Git/dotnet-odata-api/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.dotnet-odata-api.props
+/Users/bryanchua/Git/dotnet-odata-api/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.dotnet-odata-api.props
+/Users/bryanchua/Git/dotnet-odata-api/obj/Debug/net6.0/staticwebassets.pack.json

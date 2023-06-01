@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Q17dpbF+lK7nwcUbnYKDJTn45Bsvdrakzf1MnqxMn5M8dX19AvrIg8jLxZLw9mNi4fUWp50pffTXu+0UyeQHhQ==",
+  "dgSpecHash": "OErOaeO0Mac+J3NKieLWF5qVnfJYKUq91v3w7cLCFsIcs/ScQLsU1ZG+9+vg3nPQ0bHww2hlc3Qr46VH43fI4w==",
   "success": true,
   "projectFilePath": "/Users/bryanchua/Git/dotnet-odata-api/dotnet-odata-api.csproj",
   "expectedPackageFiles": [

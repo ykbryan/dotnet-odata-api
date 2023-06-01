@@ -28,4 +28,18 @@ public class MovieController : ControllerBase
     {
         return Ok(_context.Movie);
     }
+
+    [HttpDelete("${id}")]
+    public IActionResult Delete(int id)
+    {
+        return Ok(_context.Movie.Where(m => m.Id == id));
+    }
+
+    // write a method to get a movie by id
+    [HttpGet("{id}")]
+    public ActionResult<Movie> Get(int id)
+    {
+        return Ok(_context.Movie.Where(m => m.Id == id));
+    }
+
 }
